@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Link di Bootstrap-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--Mio CSS-->
+
+  <link rel="stylesheet" href="/CSS/style.css">
+
+  <!--Favicon-->
+
+  <link rel="icon" href="/img_ilaria/logoilaria.ico">
+
+  <!--Google font-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+ 
+  <!--nome titolo-->
+
+  <title>Ilaria Pecoraro Makeup Artist</title>
+</head>
+<body>
+
+  <!--Logo iniziale centrale-->
+  <div class="container">
+    <img class="logoimg" src="/img_ilaria/logoilaria.ico" alt="logo">
+
+      <!--off canvas per il menu-->
+
+      <button id="posizioneBottone" class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> 
+        
+        <!--Icona menu lato destro-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+        <span class="spanNome">Ilaria Make up</span>
+
+      </button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"> 
+      <div class="offcanvas-header">
+        <!--Logo con nome nel canvas laterale a destra-->
+        <h5 class="offcanvas-title" id="offcanvasRightLabel"> <img id="logoCanvas" src="/img_ilaria/logoilaria.ico" alt="logo"> Ilaria Pecoraro </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <!--contenuto della pagina laterale canvas-->
+      <div class="offcanvas-body BGcanvas">
+        <div>
+          <ul>
+            <li class="list-group-item"><a href="Portfolio.html">Portfolio</a></li>
+            <li class="list-group-item"><a href="backstage.html">Backstage</a></li>
+            <li class="list-group-item"><a href="">Cosa vuoi scrivere</a></li>
+            <li class="list-group-item"><a href="">Cosa vuoi scrivere</a></li>
+            <li class="list-group-item"><a href="">Cosa vuoi scrivere</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+<!--contenitore pagina iniziale con carosello 3 foto-->
+
+<div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img_ilaria/banneriniziale.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img_ilaria/makeupblackface.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img_ilaria/sposaviso.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+<!--barra foot con nome-->
+<div id="foot" class="container">
+  | Ilaria Pecoraro | Makeup stylist | Brighton | represented by ... |
+</div>
+
+
+
+  <!--JS di Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

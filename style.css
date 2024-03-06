@@ -1,0 +1,64 @@
+body{
+    font-family: "Cinzel", serif;
+}
+
+.logoimg{
+    width: 35px;
+    height: auto;
+    margin-left: 46%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#posizioneBottone{
+    float: inline-end;
+    margin-top: 10px;
+}
+
+
+.spanNome{
+    font-family: "Cinzel", serif;
+}
+
+#foot{
+
+    margin-top: 5px;
+    font-family: "Cinzel", serif;
+
+}
+
+/* style css per il canvas*/
+
+#logoCanvas{
+    width: 42px;
+    height: auto;
+}
+
+.BGcanvas{
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+li{
+    padding: 30px;
+    margin-top: 30px;
+}
+
+li a{
+    text-decoration: none;
+    color: aliceblue;
+    border-bottom: 1px solid indigo;
+}
+
+
+
+@media (max-width: 768px) {
+    /* Stili per dispositivi con larghezza massima di 768px (cellulari) */
+    #posizioneBottone{
+        float: none;
+        margin-top: none;
+        margin: auto;
+    }
+  }
+  

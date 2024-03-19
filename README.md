@@ -1,6 +1,6 @@
 
 # Link:
-https://spagnuolo01233.github.io/Ilaria-Makeup-Web/
+https://spagnuolo01233.github.io/Makeup-Web/
 
 # Makeup Artist Portfolio Website
 Welcome to the Makeup Artist Portfolio Website repository! This project showcases a website designed for a makeup artist to display their portfolio and services. The site has been developed using HTML, CSS, and Bootstrap, ensuring compatibility and optimization for viewing on phones and tablets.
